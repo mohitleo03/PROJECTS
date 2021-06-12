@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="loanProcess" class="org.example.LoanProcess"/>
+    <bean scope="prototype" id="customer1" class="org.example.DataEntry.DataEntryClass">
+        <property name="personalDetails" ref="personalDetails1"/>
+        <property name="loan" ref="loan1"/>
+        <property name="fraudCustomers">
+            <list>
+                <ref bean="fraud1"/>
+                <ref bean="fraud2"/>
+            </list>
+        </property>
+        <property name="Id" value="20"/>
+    </bean>
+    <bean scope="prototype" id="personalDetails1" class="org.example.Sourcing.SourcingData">
+        <constructor-arg index="0" value="Deepanshu"/>
+        <constructor-arg index="1" value="Goel"/>
+        <constructor-arg index="2" value="20"/>
+        <constructor-arg index="3" value="8810421579"/>
+        <constructor-arg index="4" value="gdeepanshu2013@gmail.com"/>
+        <constructor-arg index="5" value="E"/>
+        <constructor-arg index="6" ref="address1"/>
+        <constructor-arg index="7" ref="adhaar1"/>
+        <constructor-arg index="8" ref="pan1"/>
+    </bean>
+    <bean scope="prototype" id="address1" class="org.example.Sourcing.Address">
+        <constructor-arg index="0" value="A-1/141"/>
+        <constructor-arg index="1" value="Park"/>
+        <constructor-arg index="2" value="Delhi"/>
+        <constructor-arg index="3" value="110085"/>
+    </bean>
+    <bean scope="prototype" id="adhaar1" class="org.example.DataEntry.Adhaar">
+        <constructor-arg value="201121212312"/>
+    </bean>
+    <bean scope="prototype" id="pan1" class="org.example.DataEntry.Pan">
+        <constructor-arg value="121312312312"/>
+    </bean>
+
+<!--    End of Personal Details-->
+
+    <bean scope="prototype" id="loan1" class="org.example.Sourcing.Loan">
+        <constructor-arg index="0" value="E"/>
+        <constructor-arg index="1" value="24"/>
+        <constructor-arg index="2" value="1000000"/>
+        <constructor-arg index="3" value="1.1"/>
+        <constructor-arg index="4" value="60"/>
+    </bean>
+    <bean scope="prototype" lazy-init="false" id="fraud1" class="org.example.DataEntry.DataEntryClass">
+        <property name="personalDetails" ref="fraudDetails1"/>
+    </bean>
+    <bean scope="prototype" lazy-init="false" id="fraud2" class="org.example.DataEntry.DataEntryClass">
+        <property name="personalDetails" ref="fraudDetails2"/>
+    </bean>
+    <bean scope="prototype" lazy-init="false" id="fraudDetails1" class="org.example.Sourcing.SourcingData">
+        <constructor-arg index="0" value="Sambhav"/>
+        <constructor-arg index="1" value="Jain"/>
+        <constructor-arg index="2" value="19"/>
+        <constructor-arg index="3" value="4532121011"/>
+        <constructor-arg index="4" value="sambhavjain02@gmail.com"/>
+        <constructor-arg index="5" value="B"/>
+        <constructor-arg index="6" ref="address2"/>
+        <constructor-arg index="7" ref="adhaar2"/>
+        <constructor-arg index="8" ref="pan2"/>
+    </bean>
+    <bean scope="prototype" id="adhaar2" class="org.example.DataEntry.Adhaar">
+        <constructor-arg value="23123231242"/>
+    </bean>
+    <bean scope="prototype" id="pan2" class="org.example.DataEntry.Pan">
+        <constructor-arg value="3234234234423"/>
+    </bean>
+    <bean scope="prototype" id="address2" class="org.example.Sourcing.Address">
+        <constructor-arg index="0" value="B-2/152"/>
+        <constructor-arg index="1" value="None"/>
+        <constructor-arg index="2" value="Delhi"/>
+        <constructor-arg index="3" value="110088"/>
+    </bean>
+    <bean scope="prototype" id="fraudDetails2" class="org.example.Sourcing.SourcingData">
+        <constructor-arg index="0" value="Namit"/>
+        <constructor-arg index="1" value="Kumar"/>
+        <constructor-arg index="2" value="20"/>
+        <constructor-arg index="3" value="2342342343"/>
+        <constructor-arg index="4" value="namit@gmail.com"/>
+        <constructor-arg index="5" value="H"/>
+        <constructor-arg index="6" ref="address3"/>
+        <constructor-arg index="7" ref="adhaar3"/>
+        <constructor-arg index="8" ref="pan3"/>
+    </bean>
+    <bean scope="prototype" id="address3" class="org.example.Sourcing.Address">
+        <constructor-arg index="0" value="C-2/222"/>
+        <constructor-arg index="1" value="None"/>
+        <constructor-arg index="2" value="Delhi"/>
+        <constructor-arg index="3" value="110085"/>
+    </bean>
+    <bean scope="prototype" id="pan3" class="org.example.DataEntry.Pan">
+        <constructor-arg value="23123123123"/>
+    </bean>
+    <bean scope="prototype" id="adhaar3" class="org.example.DataEntry.Adhaar">
+        <constructor-arg value="23123123123"/>
+    </bean>
+
+
+
+</beans>
