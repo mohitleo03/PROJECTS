@@ -1,0 +1,12 @@
+javac -d . ExpenseException.java
+
+javac -d . LongUsernameException.java
+
+javac -d . PassException.java
+
+javac -d . PriceException.java
+
+javac -d . validate.java
+
+javac -d . TestClass.java
+javac -d . MainMenu.java

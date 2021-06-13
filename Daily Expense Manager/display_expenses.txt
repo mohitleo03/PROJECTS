@@ -1,0 +1,3 @@
+Ishant;Ishant111;Travel,899|Food,45|Clothes,600|
+Naman;Bhatia29;Railway,500|Electricity,380|
+Mohini;Mohini23;Food,598|
