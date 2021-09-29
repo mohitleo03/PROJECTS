@@ -1,0 +1,9 @@
+Platform	Device Type  		OS Version  			HMS Core (APK) Version
+Android		Phones, tablets, 	EMUI 3.0 or later and 		Install 4.0.0.300 or later
+		smart displays,		Android 4.4 or later
+		head units
+
+HMS acc kit & HMS in-app messaging kit have been used in this app
+
+
+

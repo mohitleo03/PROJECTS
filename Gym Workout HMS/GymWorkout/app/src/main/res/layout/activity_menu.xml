@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/home_background1">
+
+  <Button
+      android:id="@+id/warmUp"
+      android:layout_width="280dp"
+      android:layout_height="65dp"
+      android:backgroundTint="@color/white"
+      android:text="WarmUp Exercise"
+
+      android:textColor="@color/black"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.38" />
+
+  <Button
+      android:id="@+id/workout"
+      android:layout_width="280dp"
+      android:layout_height="65dp"
+      android:backgroundTint="@color/white"
+      android:text="Workout"
+      android:textColor="@color/black"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.55" />
+
+  <Button
+      android:id="@+id/diet"
+      android:layout_width="280dp"
+      android:layout_height="65dp"
+      android:backgroundTint="@color/white"
+      android:text="Diet"
+      android:textColor="@color/black"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.72" />
+
+  <Button
+      android:id="@+id/tips"
+      android:layout_width="280dp"
+      android:layout_height="65dp"
+      android:backgroundTint="@color/white"
+      android:text="TIPS"
+      android:textColor="@color/black"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.89" />
+
+  <TextView
+      android:id="@+id/welcome"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:text="Welcome"
+      android:textSize="22sp"
+      android:padding="10dp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.05" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
