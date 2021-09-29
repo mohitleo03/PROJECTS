@@ -1,0 +1,734 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\549df8996cb9a77e528d15267a484eea\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e203283a33e291fc52e8851c9b91689c\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fd021cf517f4e1106ebeef06e9bb07a1\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:2:1-39:12
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:2:1-37:12
+MERGED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1ab6c7729957e5c548bc2a3289ab0dd1\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1660da3186fdcd9af62c31d268caf0eb\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fc8d311c9e27ff258c84d21e0cb010d5\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\eb17955d3fd88836d8252ff869614134\appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\87f2893ef78958e130a1ba1ac6834be0\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\257805af0da93eaac891609cd016ea49\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\bf5a61d959ae0569ccd079f1e8fed37d\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\4a81c8ea008e0a1311e9ca46ef665bc6\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\373225ec9fcb2cd06f4fad1096e378a6\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f07b93d92fb041458561fb893236f14a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e8a995a61a168b9ec6b8ac8ea6384617\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\580c90d9b1f46d3c4362f1d867c49a22\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\6574f2bb8fb5e18a7e88ed8dc96d9220\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0d7b2840fca926eb0a99fb61089abd0c\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f3c16a06dc04eed4060076304adddc96\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d4296200658e8ffcd96e0e171c02b125\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c834f60785e44ef8f3ad3d7c71870e18\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0e65561bb8daa35b810731432245b32d\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\09c0ad91d3f7c38e58836232e7e35fe1\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8520c65243ff1b81b2ea4a2837bcbb23\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\a8fdaba2f61d879b0c13eebbe67937d1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1787a6daeb12d8d221dc3105ec3bb923\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\49c0c78dbe37eb757140e5574a8f40b1\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1f75d647417bb0f17200e5be2b8e5f29\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8210fd64f08bee91a4057561beb0ec13\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\df8b17c04113c8656d1938c04b6fc293\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dbf333c9110ff5eb182ff57f8e952cba\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\98d9ca0ec8f37d8d701b7fef17249c84\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\58f5440a943a2afab624897df3314031\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e109e30d04fdc1db012ff0854794acac\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0c643e895a78b079cc846bf0d144b225\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:2:1-24:12
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:2:1-25:12
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.huawei.agconnect:agconnect-https:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c5981ef2c609678adf0bcb778871a131\agconnect-https-1.6.0.300\AndroidManifest.xml:3:1-13:12
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:2:1-44:12
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:2:1-31:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:2:1-21:12
+MERGED from [com.huawei.agconnect:datastore-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d698c8b3346b32f55dcc681f819163f0\datastore-core-1.6.0.300\AndroidManifest.xml:2:1-10:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:2:1-16:12
+MERGED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:2:1-29:12
+MERGED from [com.huawei.hms:log:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1d8e17d9e14464fa66f995a23ec59b50\log-6.1.0.301\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.android.hms:security-base:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c70ef199fac30ff3f577352da945f50d\security-base-1.1.5.306\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:2:1-47:12
+MERGED from [com.huawei.hms:hatool:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\9d6b8a75e29569baca405e9bd07a7b62\hatool-6.1.0.301\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f4e398f923a76185a828a0c0d47f0e89\network-grs-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:2:1-15:12
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0f38379cc4364a9cbe98786f30cc770b\security-encrypt-1.1.5.306\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\3f90071603b0a008ba4ad15b1e39a9c5\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\88d0c97c29836988e16d261f2ba43fd5\componentverifysdk-11.2.1.301\AndroidManifest.xml:2:1-13:12
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\40fb7a94bd1b6ef4734b6d02aa7de477\network-framework-compat-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7ae9536cba3a44bc7ac8090861921397\network-common-5.0.4.300\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c5981ef2c609678adf0bcb778871a131\agconnect-https-1.6.0.300\AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c5981ef2c609678adf0bcb778871a131\agconnect-https-1.6.0.300\AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:8:5-66
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:9:5-76:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\549df8996cb9a77e528d15267a484eea\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\549df8996cb9a77e528d15267a484eea\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e203283a33e291fc52e8851c9b91689c\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e203283a33e291fc52e8851c9b91689c\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:9:5-37:19
+MERGED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:9:5-37:19
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:15:5-35:19
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:15:5-35:19
+MERGED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:10:5-21:19
+MERGED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:10:5-21:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1787a6daeb12d8d221dc3105ec3bb923\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1787a6daeb12d8d221dc3105ec3bb923\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:9:5-22:19
+MERGED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:9:5-22:19
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:14:5-26:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:14:5-26:19
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:11:5-20
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:log:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1d8e17d9e14464fa66f995a23ec59b50\log-6.1.0.301\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:log:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1d8e17d9e14464fa66f995a23ec59b50\log-6.1.0.301\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\88d0c97c29836988e16d261f2ba43fd5\componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\88d0c97c29836988e16d261f2ba43fd5\componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:15:9-48
+activity#com.example.gymworkout.home_made_whey_protein
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:16:9-18:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:17:13-51
+activity#com.example.gymworkout.owner
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:19:9-21:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:20:13-34
+activity#com.example.gymworkout.legs_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:22:9-24:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:23:13-42
+activity#com.example.gymworkout.abs_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:26:13-41
+activity#com.example.gymworkout.shoulder_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:28:9-30:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:29:13-46
+activity#com.example.gymworkout.triceps_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:32:13-45
+activity#com.example.gymworkout.biceps_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:34:9-36:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:35:13-44
+activity#com.example.gymworkout.back_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:37:9-39:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:38:13-42
+activity#com.example.gymworkout.chest_exercise
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:40:9-42:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:41:13-43
+activity#com.example.gymworkout.info
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:43:9-45:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:44:13-33
+activity#com.example.gymworkout.muscle_booster
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:46:9-48:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:47:13-43
+activity#com.example.gymworkout.weight_gain
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:49:9-51:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:50:13-40
+activity#com.example.gymworkout.weight_loss
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:52:9-54:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:53:13-40
+activity#com.example.gymworkout.WarmUp
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:55:9-57:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:56:13-35
+activity#com.example.gymworkout.WarmUp_details
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:58:9-60:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:59:13-43
+activity#com.example.gymworkout.Tips
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:61:9-63:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:63:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:62:13-33
+activity#com.example.gymworkout.Diet
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:64:9-66:39
+	android:exported
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:65:13-33
+activity#com.example.gymworkout.Workouts
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:67:9-46
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:67:19-43
+activity#com.example.gymworkout.Home
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:68:9-42
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:68:19-39
+activity#com.example.gymworkout.MainActivity
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:69:9-75:20
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:69:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:73:27-74
+uses-sdk
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\549df8996cb9a77e528d15267a484eea\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\549df8996cb9a77e528d15267a484eea\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e203283a33e291fc52e8851c9b91689c\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e203283a33e291fc52e8851c9b91689c\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fd021cf517f4e1106ebeef06e9bb07a1\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fd021cf517f4e1106ebeef06e9bb07a1\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1ab6c7729957e5c548bc2a3289ab0dd1\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1ab6c7729957e5c548bc2a3289ab0dd1\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1660da3186fdcd9af62c31d268caf0eb\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1660da3186fdcd9af62c31d268caf0eb\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fc8d311c9e27ff258c84d21e0cb010d5\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\fc8d311c9e27ff258c84d21e0cb010d5\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\eb17955d3fd88836d8252ff869614134\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\eb17955d3fd88836d8252ff869614134\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\87f2893ef78958e130a1ba1ac6834be0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\87f2893ef78958e130a1ba1ac6834be0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\257805af0da93eaac891609cd016ea49\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\257805af0da93eaac891609cd016ea49\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\bf5a61d959ae0569ccd079f1e8fed37d\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\bf5a61d959ae0569ccd079f1e8fed37d\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\4a81c8ea008e0a1311e9ca46ef665bc6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\4a81c8ea008e0a1311e9ca46ef665bc6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\373225ec9fcb2cd06f4fad1096e378a6\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\373225ec9fcb2cd06f4fad1096e378a6\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f07b93d92fb041458561fb893236f14a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f07b93d92fb041458561fb893236f14a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e8a995a61a168b9ec6b8ac8ea6384617\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e8a995a61a168b9ec6b8ac8ea6384617\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\580c90d9b1f46d3c4362f1d867c49a22\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\580c90d9b1f46d3c4362f1d867c49a22\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\6574f2bb8fb5e18a7e88ed8dc96d9220\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\6574f2bb8fb5e18a7e88ed8dc96d9220\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0d7b2840fca926eb0a99fb61089abd0c\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0d7b2840fca926eb0a99fb61089abd0c\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f3c16a06dc04eed4060076304adddc96\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f3c16a06dc04eed4060076304adddc96\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d4296200658e8ffcd96e0e171c02b125\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d4296200658e8ffcd96e0e171c02b125\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c834f60785e44ef8f3ad3d7c71870e18\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c834f60785e44ef8f3ad3d7c71870e18\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0e65561bb8daa35b810731432245b32d\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0e65561bb8daa35b810731432245b32d\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\09c0ad91d3f7c38e58836232e7e35fe1\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\09c0ad91d3f7c38e58836232e7e35fe1\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8520c65243ff1b81b2ea4a2837bcbb23\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8520c65243ff1b81b2ea4a2837bcbb23\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\a8fdaba2f61d879b0c13eebbe67937d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\a8fdaba2f61d879b0c13eebbe67937d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1787a6daeb12d8d221dc3105ec3bb923\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1787a6daeb12d8d221dc3105ec3bb923\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\49c0c78dbe37eb757140e5574a8f40b1\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\49c0c78dbe37eb757140e5574a8f40b1\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1f75d647417bb0f17200e5be2b8e5f29\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1f75d647417bb0f17200e5be2b8e5f29\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8210fd64f08bee91a4057561beb0ec13\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8210fd64f08bee91a4057561beb0ec13\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\df8b17c04113c8656d1938c04b6fc293\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\df8b17c04113c8656d1938c04b6fc293\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dbf333c9110ff5eb182ff57f8e952cba\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dbf333c9110ff5eb182ff57f8e952cba\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\98d9ca0ec8f37d8d701b7fef17249c84\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\98d9ca0ec8f37d8d701b7fef17249c84\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\58f5440a943a2afab624897df3314031\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\58f5440a943a2afab624897df3314031\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e109e30d04fdc1db012ff0854794acac\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e109e30d04fdc1db012ff0854794acac\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0c643e895a78b079cc846bf0d144b225\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0c643e895a78b079cc846bf0d144b225\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:7:5-10:70
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:7:5-10:70
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c5981ef2c609678adf0bcb778871a131\agconnect-https-1.6.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c5981ef2c609678adf0bcb778871a131\agconnect-https-1.6.0.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:datastore-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d698c8b3346b32f55dcc681f819163f0\datastore-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:datastore-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d698c8b3346b32f55dcc681f819163f0\datastore-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:stats:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\35239c481f44ebddacd6b3c24f366886\stats-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1d8e17d9e14464fa66f995a23ec59b50\log-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\1d8e17d9e14464fa66f995a23ec59b50\log-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:security-base:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c70ef199fac30ff3f577352da945f50d\security-base-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-base:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c70ef199fac30ff3f577352da945f50d\security-base-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hatool:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\9d6b8a75e29569baca405e9bd07a7b62\hatool-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hatool:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\9d6b8a75e29569baca405e9bd07a7b62\hatool-6.1.0.301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f4e398f923a76185a828a0c0d47f0e89\network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f4e398f923a76185a828a0c0d47f0e89\network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0f38379cc4364a9cbe98786f30cc770b\security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\0f38379cc4364a9cbe98786f30cc770b\security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\3f90071603b0a008ba4ad15b1e39a9c5\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\3f90071603b0a008ba4ad15b1e39a9c5\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\88d0c97c29836988e16d261f2ba43fd5\componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\88d0c97c29836988e16d261f2ba43fd5\componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\40fb7a94bd1b6ef4734b6d02aa7de477\network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\40fb7a94bd1b6ef4734b6d02aa7de477\network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7ae9536cba3a44bc7ac8090861921397\network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7ae9536cba3a44bc7ac8090861921397\network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:10:9-67
+	android:targetSdkVersion
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+activity#com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity
+ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:10:9-16:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:13:13-46
+	android:exported
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:12:13-53
+	android:theme
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:15:13-72
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:11:13-90
+activity#com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity
+ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:17:9-22:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:19:13-46
+	android:exported
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:18:13-96
+meta-data#com.huawei.hms.client.service.name:hwid
+ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:25:9-27:46
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:26:13-67
+meta-data#com.huawei.hms.min_api_level:hwid:hwid
+ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:28:9-30:33
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:30:13-30
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:29:13-66
+meta-data#com.huawei.hms.min_api_level:hwid:account
+ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:34:9-36:34
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:36:13-31
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:35:13-69
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:13:5-106
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:13:22-103
+meta-data#com.huawei.hms.client.service.name:hianalytics
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:16:9-18:53
+	android:value
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:18:13-50
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:17:13-74
+meta-data#com.huawei.hms.min_api_level:hianalytics:hianalytics
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:19:9-21:33
+	android:value
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:21:13-30
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:20:13-80
+receiver#com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:23:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:24:13-87
+intent-filter#action:name:com.huawei.hms.analytics.pps.event
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:26:13-28:29
+action#com.huawei.hms.analytics.pps.event
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:27:25-74
+provider#com.huawei.hms.analytics.provider.AnalyticsInitializeProvider
+ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:31:9-34:40
+	android:authorities
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:33:13-82
+	android:exported
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:32:13-89
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:11:9-20:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:15:9-21:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:15:9-21:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:16:9-18:40
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:12:13-70
+meta-data#com.huawei.agconnect.appmessaging.AppMessagingServiceRegistrar
+ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:14:13-16:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:16:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:15:17-94
+meta-data#com.huawei.agconnect.appmessaging.display.AppMessagingDisplayServiceRegistrar
+ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:17:13-19:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:19:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:18:17-109
+provider#com.huawei.hms.aaid.InitProvider
+ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:12:13-68
+	android:exported
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:11:13-60
+meta-data#com.huawei.hms.client.service.name:opendevice
+ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:16:9-18:52
+	android:value
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:17:13-73
+meta-data#com.huawei.hms.min_api_level:opendevice:push
+ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:19:9-21:33
+	android:value
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:21:13-30
+	android:name
+		ADDED from [com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:20:13-72
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:15:9-17:46
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:16:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:20:9-22:33
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:22:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:21:13-69
+meta-data#com.huawei.agconnect.credential.CredentialServiceRegistrar:100
+ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:18:13-20:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:20:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:19:17-94
+uses-library#org.apache.http.legacy
+ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:23:9-25:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2004fd8e7c0f2350e1c607e63d36344e\security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:24:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:9:22-107
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:14:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:14:22-80
+queries
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:18:5-27:15
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:14:5-21:15
+MERGED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:14:5-21:15
+intent#action:name:com.apptouch.intent.action.update_hms
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:19:9-21:18
+action#com.apptouch.intent.action.update_hms
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:20:13-76
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:20:21-73
+intent#action:name:com.huawei.appmarket.intent.action.AppDetail
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:22:9-24:18
+action#com.huawei.appmarket.intent.action.AppDetail
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:23:13-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:23:21-80
+package#com.hisilicon.android.hiRMService
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:26:18-66
+meta-data#availableLoaded
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:32:9-34:35
+	android:value
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:34:13-32
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:33:13-43
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:36:9-41:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:38:13-71
+	android:exported
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:37:13-73
+intent#action:name:com.huawei.hms.core.aidlservice
+ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:15:9-17:18
+action#com.huawei.hms.core.aidlservice
+ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:16:13-70
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:16:21-67
+intent#action:name:com.huawei.hms.core
+ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:18:9-20:18
+action#com.huawei.hms.core
+ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:19:21-55
+provider#com.huawei.hms.device.provider.CheckHmsProvider
+ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:24:9-28:51
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:28:13-48
+	android:authorities
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:26:13-85
+	android:exported
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:25:13-75
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:11:9-14:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:13:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:12:13-90
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:9:13-64
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:10:9-21:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:16:13-47
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:13:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:15:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:12:13-131
+	android:theme
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:11:13-66
+meta-data#hwc-theme
+ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:18:13-20:77
+	android:value
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:20:17-74
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:19:17-41
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:22:9-26:20
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:25:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:24:13-106
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:23:13-73
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:22:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:33:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:31:13-84
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:44:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:42:13-74
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:41:13-83

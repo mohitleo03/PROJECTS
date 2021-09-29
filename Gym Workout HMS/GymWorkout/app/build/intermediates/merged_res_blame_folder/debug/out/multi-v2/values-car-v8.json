@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mohit\\AndroidStudioProjects\\Gym Workout HMS\\GymWorkout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-car-v8\\values-car-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mohit\\.gradle\\caches\\transforms-2\\files-2.1\\e7c5b9f67081e7b524f15f81b89f0cd5\\update-3.0.4.300\\res\\values-car-v8\\values-car-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,478 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gymworkout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml
+10    <!-- check network permissions -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:5:22-76
+12    <!-- check wifi state -->
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+15-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:13:5-106
+15-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:13:22-103
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+16-->[com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:2.2] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\67c99841ea311e5455b4357e17523428\installreferrer-2.2\AndroidManifest.xml:9:22-107
+17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+17-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:14:5-83
+17-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:14:22-80
+18
+19    <queries>
+19-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:18:5-27:15
+20        <intent>
+20-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:19:9-21:18
+21            <action android:name="com.apptouch.intent.action.update_hms" />
+21-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:20:13-76
+21-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:20:21-73
+22        </intent>
+23        <intent>
+23-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:22:9-24:18
+24            <action android:name="com.huawei.appmarket.intent.action.AppDetail" />
+24-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:23:13-83
+24-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:23:21-80
+25        </intent>
+26
+27        <package android:name="com.hisilicon.android.hiRMService" />
+27-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:26:9-69
+27-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:26:18-66
+28
+29        <intent>
+29-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:15:9-17:18
+30            <action android:name="com.huawei.hms.core.aidlservice" />
+30-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:16:13-70
+30-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:16:21-67
+31        </intent>
+32        <intent>
+32-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:18:9-20:18
+33            <action android:name="com.huawei.hms.core" />
+33-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:19:13-58
+33-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:19:21-55
+34        </intent>
+35    </queries>
+36
+37    <application
+37-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:9:5-76:19
+38        android:allowBackup="true"
+38-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:10:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\8b2f48808d4dccd83cf6df2ca8629520\core-1.5.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:11:9-43
+43        android:label="@string/app_name"
+43-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:12:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:13:9-54
+45        android:supportsRtl="true"
+45-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:14:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.GymWorkout" >
+47-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:15:9-48
+48        <activity
+48-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:16:9-18:39
+49            android:name="com.example.gymworkout.home_made_whey_protein"
+49-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:17:13-51
+50            android:exported="true" />
+50-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:18:13-36
+51        <activity
+51-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:19:9-21:39
+52            android:name="com.example.gymworkout.owner"
+52-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:20:13-34
+53            android:exported="true" />
+53-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:21:13-36
+54        <activity
+54-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:22:9-24:39
+55            android:name="com.example.gymworkout.legs_exercise"
+55-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:23:13-42
+56            android:exported="true" />
+56-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:24:13-36
+57        <activity
+57-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:25:9-27:39
+58            android:name="com.example.gymworkout.abs_exercise"
+58-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:26:13-41
+59            android:exported="true" />
+59-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:27:13-36
+60        <activity
+60-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:28:9-30:39
+61            android:name="com.example.gymworkout.shoulder_exercise"
+61-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:29:13-46
+62            android:exported="true" />
+62-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:30:13-36
+63        <activity
+63-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:31:9-33:39
+64            android:name="com.example.gymworkout.triceps_exercise"
+64-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:32:13-45
+65            android:exported="true" />
+65-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:33:13-36
+66        <activity
+66-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:34:9-36:39
+67            android:name="com.example.gymworkout.biceps_exercise"
+67-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:35:13-44
+68            android:exported="true" />
+68-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:36:13-36
+69        <activity
+69-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:37:9-39:39
+70            android:name="com.example.gymworkout.back_exercise"
+70-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:38:13-42
+71            android:exported="true" />
+71-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:39:13-36
+72        <activity
+72-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:40:9-42:39
+73            android:name="com.example.gymworkout.chest_exercise"
+73-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:41:13-43
+74            android:exported="true" />
+74-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:42:13-36
+75        <activity
+75-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:43:9-45:39
+76            android:name="com.example.gymworkout.info"
+76-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:44:13-33
+77            android:exported="true" />
+77-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:45:13-36
+78        <activity
+78-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:46:9-48:39
+79            android:name="com.example.gymworkout.muscle_booster"
+79-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:47:13-43
+80            android:exported="true" />
+80-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:48:13-36
+81        <activity
+81-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:49:9-51:39
+82            android:name="com.example.gymworkout.weight_gain"
+82-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:50:13-40
+83            android:exported="true" />
+83-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:51:13-36
+84        <activity
+84-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:52:9-54:39
+85            android:name="com.example.gymworkout.weight_loss"
+85-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:53:13-40
+86            android:exported="true" />
+86-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:54:13-36
+87        <activity
+87-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:55:9-57:39
+88            android:name="com.example.gymworkout.WarmUp"
+88-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:56:13-35
+89            android:exported="true" />
+89-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:57:13-36
+90        <activity
+90-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:58:9-60:39
+91            android:name="com.example.gymworkout.WarmUp_details"
+91-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:59:13-43
+92            android:exported="true" />
+92-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:60:13-36
+93        <activity
+93-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:61:9-63:39
+94            android:name="com.example.gymworkout.Tips"
+94-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:62:13-33
+95            android:exported="true" />
+95-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:63:13-36
+96        <activity
+96-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:64:9-66:39
+97            android:name="com.example.gymworkout.Diet"
+97-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:65:13-33
+98            android:exported="true" />
+98-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:66:13-36
+99        <activity android:name="com.example.gymworkout.Workouts" />
+99-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:67:9-46
+99-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:67:19-43
+100        <activity android:name="com.example.gymworkout.Home" />
+100-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:68:9-42
+100-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:68:19-39
+101        <activity android:name="com.example.gymworkout.MainActivity" >
+101-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:69:9-75:20
+101-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:69:19-47
+102            <intent-filter>
+102-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:70:13-74:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:71:17-69
+103-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:71:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:73:17-77
+105-->C:\Users\mohit\AndroidStudioProjects\Gym Workout HMS\GymWorkout\app\src\main\AndroidManifest.xml:73:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:10:9-16:20
+109            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+109-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:11:13-90
+110            android:configChanges="fontScale|uiMode"
+110-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:12:13-53
+111            android:excludeFromRecents="true"
+111-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:13:13-46
+112            android:exported="false"
+112-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:14:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+113-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:15:13-72
+114        </activity>
+115        <activity
+115-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:17:9-22:20
+116            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+116-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:18:13-96
+117            android:excludeFromRecents="true"
+117-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:19:13-46
+118            android:exported="false"
+118-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:20:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:21:13-72
+120        </activity> <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+121        <meta-data
+121-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:25:9-27:46
+122            android:name="com.huawei.hms.client.service.name:hwid"
+122-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:26:13-67
+123            android:value="hwid:6.1.0.300" />
+123-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:27:13-43
+124        <meta-data
+124-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:28:9-30:33
+125            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+125-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:29:13-66
+126            android:value="1" /> <!-- 5.3.0 独立授权依赖的api_level为11 -->
+126-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:30:13-30
+127        <!-- 5.3.0 setCarrierId依赖的api_level为13 -->
+128        <meta-data
+128-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:34:9-36:34
+129            android:name="com.huawei.hms.min_api_level:hwid:account"
+129-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:35:13-69
+130            android:value="13" />
+130-->[com.huawei.hms:hwid:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f214cbdcec8b0a5c9d31b2d8ab0e82eb\hwid-6.1.0.300\AndroidManifest.xml:36:13-31
+131        <meta-data
+131-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:16:9-18:53
+132            android:name="com.huawei.hms.client.service.name:hianalytics"
+132-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:17:13-74
+133            android:value="hianalytics:6.1.0.300" />
+133-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:18:13-50
+134        <meta-data
+134-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:19:9-21:33
+135            android:name="com.huawei.hms.min_api_level:hianalytics:hianalytics"
+135-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:20:13-80
+136            android:value="1" />
+136-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:21:13-30
+137
+138        <receiver
+138-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:23:9-29:20
+139            android:name="com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver"
+139-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:24:13-87
+140            android:exported="false" >
+140-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:25:13-37
+141            <intent-filter>
+141-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:26:13-28:29
+142                <action android:name="com.huawei.hms.analytics.pps.event" />
+142-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:27:17-77
+142-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:27:25-74
+143            </intent-filter>
+144        </receiver>
+145
+146        <provider
+146-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:31:9-34:40
+147            android:name="com.huawei.hms.analytics.provider.AnalyticsInitializeProvider"
+147-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:32:13-89
+148            android:authorities="com.example.gymworkout.AnalyticsKitInitializeProvider"
+148-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:33:13-82
+149            android:exported="false" />
+149-->[com.huawei.hms:hianalytics:6.1.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e347fd05b3014bbd8fc9bb69c58003e3\hianalytics-6.1.0.300\AndroidManifest.xml:34:13-37
+150
+151        <service
+151-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:11:9-20:19
+152            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+152-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:12:13-70
+153            android:exported="false" >
+153-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:13:13-37
+154            <meta-data
+154-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:14:13-16:78
+155                android:name="com.huawei.agconnect.appmessaging.AppMessagingServiceRegistrar"
+155-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:15:17-94
+156                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+156-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:16:17-75
+157            <meta-data
+157-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:17:13-19:78
+158                android:name="com.huawei.agconnect.appmessaging.display.AppMessagingDisplayServiceRegistrar"
+158-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:18:17-109
+159                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+159-->[com.huawei.agconnect:agconnect-appmessaging:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\12d41ce771cb15dc8b7abeee27226d06\agconnect-appmessaging-1.6.0.300\AndroidManifest.xml:19:17-75
+160            <meta-data
+160-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:18:13-20:78
+161                android:name="com.huawei.agconnect.credential.CredentialServiceRegistrar:100"
+161-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:19:17-94
+162                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+162-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:20:17-75
+163        </service>
+164
+165        <provider
+165-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:10:9-14:39
+166            android:name="com.huawei.hms.aaid.InitProvider"
+166-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:11:13-60
+167            android:authorities="com.example.gymworkout.aaidinitprovider"
+167-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:12:13-68
+168            android:exported="false"
+168-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:13:13-37
+169            android:initOrder="500" />
+169-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:14:13-36
+170
+171        <meta-data
+171-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:16:9-18:52
+172            android:name="com.huawei.hms.client.service.name:opendevice"
+172-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:17:13-73
+173            android:value="opendevice:5.1.1.306" />
+173-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:18:13-49
+174        <meta-data
+174-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:19:9-21:33
+175            android:name="com.huawei.hms.min_api_level:opendevice:push"
+175-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:20:13-72
+176            android:value="1" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+176-->[com.huawei.hms:opendevice:5.1.1.306] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\b60e54a2ee3380e8fe5c042981572551\opendevice-5.1.1.306\AndroidManifest.xml:21:13-30
+177        <meta-data
+177-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:15:9-17:46
+178            android:name="com.huawei.hms.client.service.name:base"
+178-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:16:13-67
+179            android:value="base:6.1.0.301" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+179-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:17:13-43
+180        <meta-data
+180-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:20:9-22:33
+181            android:name="com.huawei.hms.min_api_level:base:hmscore"
+181-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:21:13-69
+182            android:value="1" />
+182-->[com.huawei.hms:base:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\50736962493f5dd009fd33999d926238\base-6.1.0.301\AndroidManifest.xml:22:13-30
+183
+184        <uses-library
+184-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:23:9-25:40
+185            android:name="org.apache.http.legacy"
+185-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:24:13-50
+186            android:required="false" /> <!-- 用于判断是否集成了本lib -->
+186-->[com.huawei.agconnect:agconnect-credential:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\7608af961b3df801784ed7e1ad48d351\agconnect-credential-1.6.0.300\AndroidManifest.xml:25:13-37
+187        <meta-data
+187-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:32:9-34:35
+188            android:name="availableLoaded"
+188-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:33:13-43
+189            android:value="yes" />
+189-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:34:13-32
+190
+191        <provider
+191-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:36:9-41:20
+192            android:name="com.huawei.hms.update.provider.UpdateProvider"
+192-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:37:13-73
+193            android:authorities="com.example.gymworkout.hms.update.provider"
+193-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:38:13-71
+194            android:exported="false"
+194-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:39:13-37
+195            android:grantUriPermissions="true" >
+195-->[com.huawei.hms:availableupdate:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\020e966ecdfd4c881be0021a54a899ae\availableupdate-6.1.0.301\AndroidManifest.xml:40:13-47
+196        </provider>
+197        <provider
+197-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:24:9-28:51
+198            android:name="com.huawei.hms.device.provider.CheckHmsProvider"
+198-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:25:13-75
+199            android:authorities="com.example.gymworkout.hms.device.validate.spoofprovider"
+199-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:26:13-85
+200            android:exported="false"
+200-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:27:13-37
+201            android:grantUriPermissions="false" />
+201-->[com.huawei.hms:device:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dff47905d648edb3e8b94561219bf9fe\device-6.1.0.301\AndroidManifest.xml:28:13-48
+202        <provider
+202-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:11:9-14:40
+203            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+203-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:12:13-90
+204            android:authorities="com.example.gymworkout.AGCInitializeProvider"
+204-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:13:13-73
+205            android:exported="false" />
+205-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d5ccd7d90c740c9218ca07e28c6aa8a5\agconnect-core-1.6.0.300\AndroidManifest.xml:14:13-37
+206        <provider
+206-->[com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+207            android:name="com.squareup.picasso.PicassoProvider"
+207-->[com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:9:13-64
+208            android:authorities="com.example.gymworkout.com.squareup.picasso"
+208-->[com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:10:13-72
+209            android:exported="false" />
+209-->[com.squareup.picasso:picasso:2.71828] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d2c799b140266b290af8136e1325109d\picasso-2.71828\AndroidManifest.xml:11:13-37
+210
+211        <activity
+211-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:10:9-21:20
+212            android:name="com.huawei.hms.activity.BridgeActivity"
+212-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:11:13-66
+213            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+213-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:12:13-131
+214            android:excludeFromRecents="true"
+214-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:13:13-46
+215            android:exported="false"
+215-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:14:13-37
+216            android:hardwareAccelerated="true"
+216-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:15:13-47
+217            android:screenOrientation="behind"
+217-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:16:13-47
+218            android:theme="@style/Base_Translucent" >
+218-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:17:13-52
+219            <meta-data
+219-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:18:13-20:77
+220                android:name="hwc-theme"
+220-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:19:17-41
+221                android:value="androidhwext:style/Theme.Emui.Translucent" />
+221-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:20:17-74
+222        </activity>
+223        <activity
+223-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:22:9-26:20
+224            android:name="com.huawei.hms.activity.EnableServiceActivity"
+224-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:23:13-73
+225            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+225-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:24:13-106
+226            android:exported="false" >
+226-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:25:13-37
+227        </activity>
+228        <activity
+228-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+229            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+229-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:22:13-84
+230            android:configChanges="orientation|screenSize"
+230-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:23:13-59
+231            android:exported="false"
+231-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:24:13-37
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+232-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:25:13-72
+233            <meta-data
+233-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:18:13-20:77
+234                android:name="hwc-theme"
+234-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:19:17-41
+235                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+235-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:20:17-74
+236        </activity>
+237        <activity
+237-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+238            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+238-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:31:13-84
+239            android:configChanges="orientation|keyboardHidden|screenSize"
+239-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:32:13-74
+240            android:exported="false"
+240-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:33:13-37
+241            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+241-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:34:13-72
+242            <meta-data
+242-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:18:13-20:77
+243                android:name="hwc-theme"
+243-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:19:17-41
+244                android:value="androidhwext:style/Theme.Emui.Translucent" />
+244-->[com.huawei.hms:ui:6.1.0.301] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e11b35adf0568620d03d4a2f53151f1\ui-6.1.0.301\AndroidManifest.xml:20:17-74
+245        </activity>
+246
+247        <provider
+247-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+248            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+248-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:41:13-83
+249            android:authorities="com.example.gymworkout.updateSdk.fileProvider"
+249-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:42:13-74
+250            android:exported="false"
+250-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:43:13-37
+251            android:grantUriPermissions="true" />
+251-->[com.huawei.hms:update:3.0.4.300] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\e7c5b9f67081e7b524f15f81b89f0cd5\update-3.0.4.300\AndroidManifest.xml:44:13-47
+252    </application>
+253
+254</manifest>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:componentverifysdk:11.2.1.301@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88d0c97c29836988e16d261f2ba43fd5/componentverifysdk-11.2.1.301/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88d0c97c29836988e16d261f2ba43fd5/componentverifysdk-11.2.1.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be248e11fc41c75ff580975a770ab4b7/componentverifysdk-11.2.1.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761c0001463b7cb8dc01157b3ca3a39f/componentverifysdk-11.2.1.301/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88d0c97c29836988e16d261f2ba43fd5/componentverifysdk-11.2.1.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88d0c97c29836988e16d261f2ba43fd5/componentverifysdk-11.2.1.301/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
