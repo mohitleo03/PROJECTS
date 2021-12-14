@@ -1,0 +1,32 @@
+module.exports = {
+    SCHEMAS:{
+        USERS:'users',
+        PRODUCT:'product'
+    },
+    STATUS_CODES:{
+        SUCCESS:200,
+        SERVER_CRASH:500,
+        FILE_NOT_FOUND:404,
+        NOT_FOUND:404
+    },
+    ROUTES:{
+        ROOT:'/',
+        PAYMENTS:{
+            PAY:'/pay'
+        },
+        USER:{
+            LOGIN:'/login',
+            REGISTER:'/register',
+            PROFILE:'/show'
+        },
+        ORDER:{
+            DETAILS:'/orders',
+            HISTORY:'/history'
+        },
+        PRODUCT:{
+            ADD:'/add_product',
+            VIEW:'/view',
+            PROFILE:'/show'
+        }
+    }
+}
